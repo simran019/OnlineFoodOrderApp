@@ -1,7 +1,6 @@
 import allMeals from "./mealsInfo";
 
 const Meals = () => {
-  console.log(allMeals, "hii");
   return (
     <div className="flex flex-col gap-4 bg-white px-4 py-8 rounded-xl w-1/2">
       {allMeals.map((meal: any, index: any) => {
