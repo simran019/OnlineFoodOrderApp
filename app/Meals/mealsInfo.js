@@ -3,25 +3,29 @@ const allMeals = [
     mealId:"meal1",
     mealName:"Sushi",
     mealDescription:"Fine fish with Veggies",
-    mealAmount:"Rs550"
+    mealAmount:550,
+    quantity:1
  },
  {
     mealId:"meal2",
     mealName:"Burger",
     mealDescription:"Healthy and green",
-    mealAmount:"Rs250"
+    mealAmount:250,
+    quantity:1
  },
  {
     mealId:"meal3",
     mealName:"Soup",
     mealDescription:"All green veggies",
-    mealAmount:"Rs350"
+    mealAmount:350,
+    quantity:1
  },
  {
     mealId:"meal4",
     mealName:"Ice Cream",
     mealDescription:"Blueberries and nuts",
-    mealAmount:"Rs150"
+    mealAmount:150,
+    quantity:1
  }    
 ]
 
