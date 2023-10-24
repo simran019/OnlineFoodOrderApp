@@ -13,7 +13,7 @@ const MealItem = (props: any) => {
           </div>
           <div className="text-red-600 font-bold">{amount}</div>
         </div>
-        <MealItemForm id={id} />
+        <MealItemForm id={id} amount={amount} name={name} onAddToCart={props.onAddToCart}/>
       </div>
       <hr className="border-0.5 border-red-800 rounded-xl"></hr>
     </>
